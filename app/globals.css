@@ -1,27 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+
+.hero-img {
+  animation: morph 8s ease-in-out infinite;
+  background-image: url(/IM.jpg) !important;
+  background-position: 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border: 3px solid #2d2e32 !important;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40% ;
+  height: 26rem !important;
+  position: relative !important;
+  transition: all 1s ease-in-out !important;
+  width: 26rem !important;
+}
+
+.imgpro:hover{
+  transform: translateY(-63%);
+   transition: transform 10s ease-in-out 0s;
+}
+
+.imgpro{
+  transform: translateY(0%);
+   transition: transform 3s ease-in-out 0s;
+   box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.box{
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.title{
+  font-family: 'Mulish', sans-serif;
+
+}
+
+.textanim span{
+  animation: rotate 9s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bluetitle{
+  @apply text-[22px] font-[900] text-blue-600
+}
+
+.blacktitle{
+  @apply font-[900] text-[27px] text-neutral-800
 }
