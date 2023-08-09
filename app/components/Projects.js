@@ -15,7 +15,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 gap-16">
 
       <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row  md:h-[25rem]   p-[1rem] bg-white ">
-      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[20rem] md:h-auto  rounded-2xl">
+      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/screen1.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
       </div>
@@ -33,12 +33,12 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="box flex gap-[6rem] rounded-2xl justify-between   flex-row-reverse h-[25rem]   p-[1rem] bg-white ">
-      <div className="w-[53rem] shadow-lg overflow-hidden h-auto  rounded-2xl">
+      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row  md:h-[25rem]   p-[1rem] bg-white ">
+      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/hoobank.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
       </div>
-        <div className="w-[44rem]  text-center flex flex-col items-center self-center">
+      <div className="w-[44rem] py-10 md:py-0  text-center flex flex-col items-center self-center">
         <p className='text-xl font-[900] text-neutral-900 mb-2 uppercase'>Hoobank</p>
         <p className='text-neutral-500 font-[600] max-w-[300px] '>
 Hoobank: A ReactJS and Tailwind CSS-powered landing page that redefines modern online banking with its seamless interface and contemporary design.</p>
@@ -53,12 +53,12 @@ Hoobank: A ReactJS and Tailwind CSS-powered landing page that redefines modern o
         </div>
       </div>
 
-      <div className="box flex gap-[6rem] rounded-2xl justify-between   flex-row h-[25rem]   p-[1rem] bg-white ">
-      <div className="w-[53rem] shadow-lg overflow-hidden h-auto  rounded-2xl">
+      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row  md:h-[25rem]   p-[1rem] bg-white ">
+      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/agency.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
       </div>
-        <div className="w-[44rem]  text-center flex flex-col items-center self-center">
+      <div className="w-[44rem] py-10 md:py-0  text-center flex flex-col items-center self-center">
         <p className='text-xl font-[900] text-neutral-900 mb-2 uppercase'>STARTUP AGENCY</p>
         <p className='text-neutral-500 font-[600] max-w-[300px] '>
 
