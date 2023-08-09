@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row  md:h-[25rem]   p-[1rem] bg-white ">
+      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row-reverse  md:h-[25rem]   p-[1rem] bg-white ">
       <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/hoobank.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
