@@ -7,19 +7,19 @@ import {AiFillGithub} from 'react-icons/ai'
 
 const Projects = () => {
   return (
-    <div id='projects' className="bg-gray-100 py-32">
+    <div id='projects' className="bg-gray-100 py-16 px-6 md:py-32">
   <div className='max-w-5xl mx-auto'>
       <p className='bluetitle'>Portfolio</p>
       <p className='blacktitle mb-12'>Each project is a unique piece of development 🧩</p>
 
       <div className="grid grid-cols-1 gap-16">
 
-      <div className="box flex gap-[6rem] rounded-2xl justify-between  flex-row h-[25rem]   p-[1rem] bg-white ">
-      <div className="w-[53rem] shadow-lg overflow-hidden h-auto  rounded-2xl">
+      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row  md:h-[25rem]   p-[1rem] bg-white ">
+      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[20rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/screen1.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
       </div>
-        <div className="w-[44rem]  text-center flex flex-col items-center self-center">
+        <div className="w-[44rem] py-10 md:py-0  text-center flex flex-col items-center self-center">
         <p className='text-xl font-[900] text-neutral-900 mb-2 uppercase'>Versus Immobilier</p>
         <p className='text-neutral-500 font-[600] max-w-[300px] '>Are you looking for real estate in Morocco? Do not search anymore ! Welcome to Snapimmo, the reference real estate platform dedicated to the Moroccan market. </p>
           <div className="flex gap-4 items-center my-4">

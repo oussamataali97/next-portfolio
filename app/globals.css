@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 body{
   font-family: 'Poppins', sans-serif;
@@ -73,4 +73,32 @@ body{
 
 .blacktitle{
   @apply font-[900] text-[27px] text-neutral-800
+}
+
+
+@media (max-width : 768px){
+  .hero-img {
+    animation: morph 8s ease-in-out infinite;
+    background-image: url(/IM.jpg) !important;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    border: 3px solid #2d2e32 !important;
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40% ;
+    height: 26rem !important;
+    position: relative !important;
+    transition: all 1s ease-in-out !important;
+    width: 15rem !important;
+
+  }
+
+  .hero-img {
+    height: 24rem !important;
+  }
+}
+
+@media (max-width:500px){
+  .hero-img {
+    height: 17rem !important;
+  }
 }

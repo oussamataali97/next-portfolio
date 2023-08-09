@@ -5,10 +5,10 @@ import {AiFillMail,AiFillPhone} from 'react-icons/ai'
 
 const Contact = () => {
   return (
-    <div id='contact'  data-aos="zoom-in-down" className='max-w-5xl mx-auto py-24'>
+    <div id='contact'  data-aos="zoom-in-down" className='max-w-5xl mx-auto px-6 py-24'>
         <p className='bluetitle'> CONTACT</p>
         <p className="blacktitle">Don't be shy! Hit me up! 👇</p>
-        <div className="flex justify-between items-center mt-14">
+        <div className="flex flex-col md:flex-row justify-between md:items-center space-y-16 md:space-y-0 mt-14">
             <div className="flex items-center gap-3">
             <div className='bg-white shadow-lg
              rounded-full flex justify-center items-center w-24 h-24'><FaMapLocationDot size={30} className='text-blue-600'/>     </div>

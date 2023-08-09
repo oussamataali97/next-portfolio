@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Aboutme = () => {
   return (
-    <div id='about' className='max-w-5xl mx-auto my-6 gap-16 content-center h-screen grid grid-cols-2  items-center'>
+    <div id='about' className='max-w-5xl mx-auto mt-16 px-6 my-6 gap-16 content-center h-screen grid grid-cols-1 md:grid-cols-2  items-center'>
         <div className="textanim image-side relative">
         <Image src='/developer.png' width={100} height={100} alt='img' className=' absolute bottom-5 w-16 z-50 right-4' />
 
@@ -13,11 +13,11 @@ const Aboutme = () => {
 
             </span>
         </div>
-        <div className=" ">
+        <div className="mb-10 ">
             <p className='font-[900] text-blue-600
             '>ABOUT ME</p>
             <p className='py-4 font-[900] text-[27px] text-neutral-800 '>A dedicated Front-end Developer based in Errachidia, Morocco 📍</p>
-            <p className='text-gray-500 title text-md'>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React,Next, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in
+            <p className='text-gray-500 title text-md title'>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React,Next, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in
                  collaborating with cross-functional teams to produce outstanding web applications.</p>
         </div>
 

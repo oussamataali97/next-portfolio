@@ -16,7 +16,7 @@ export default function Home() {
     AOS.init()
 }, [])
   return (
-      <div className="main">
+      <div className="main overflow-hidden">
             <Head>
       <link rel="shortcut icon" href="/static/favicon.png" />
     </Head>
