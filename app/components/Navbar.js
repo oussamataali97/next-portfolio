@@ -17,7 +17,7 @@ const Navbar = () => {
            <Link className='hover:text-blue-600' href='#projects'> <li>Projects</li></Link>
            <Link className='hover:text-blue-600' href='#contact'> <li>Contact</li></Link>
         </ul>
-        <button className='fixed right-3  md:hidden z-40' onClick={()=>setMenu(!menu)}> {menu ? <AiOutlineClose size={30}/> : <RiMenu3Fill size={30} />} </button>
+        <button className=' md:hidden z-40' onClick={()=>setMenu(!menu)}> {menu ? <AiOutlineClose size={30} className='fixed right-3 '/> : <RiMenu3Fill size={30} />} </button>
 
         {menu && (
         <ul data-aos="fade-left" className='fixed top-0 left-0 right-0 flex flex-col justify-center items-center text-xl font-[600] space-y-8 bg-white  h-screen'>
