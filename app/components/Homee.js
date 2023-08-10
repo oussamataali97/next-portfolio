@@ -26,10 +26,12 @@ const Home = () => {
 
         <div className="lg:absolute lg:-bottom-9 order-3 flex-col md:flex-row flex items-center  ">
         <p className='lg:border-r-2 border-b-2 md:border-b-0  pr-5 font-[600] md:font-[800] text-lg '>Tech Stack</p>
-        <ul className='flex md:space-x-10 justify-center items-center md:justify-start flex-wrap gap-5 mt-8 md:mt-0 md:ml-16'>
+        <ul className='flex md:space-x-6 justify-center items-center md:justify-start flex-wrap gap-5 mt-8 md:mt-0 md:ml-16'>
           <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/js.svg' width={40} height={40} alt='hand' /></li>
           <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/react.svg' width={40} height={40} alt='hand' /></li>
           <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/css.svg' width={40} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/next.svg' width={50} height={50} alt='hand' /></li>
+
           <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/html.svg' width={40} height={40} alt='hand' /></li>
           <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/saas.svg' width={40} height={40} alt='hand' /></li>
         </ul>
