@@ -12,10 +12,10 @@ const Projects = () => {
       <p className='bluetitle'>Portfolio</p>
       <p className='blacktitle mb-12'>Each project is a unique piece of development 🧩</p>
 
-      <div className="grid grid-cols-1 gap-16">
+      <div className="grid grid-cols-1 gap-16  lg:max-w-5xl  max-w-xl mx-auto">
 
-      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row  md:h-[25rem]   p-[1rem] bg-white ">
-      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
+      <div className="box flex flex-col  lg:gap-[6rem] rounded-2xl justify-center lg:justify-between  lg:flex-row  md:h-[50rem] lg:h-[25rem]  p-[1rem] bg-white ">
+      <div className="w-full md:mb-7 lg:mb-0  lg:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/screen1.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
       </div>
@@ -33,8 +33,8 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row-reverse  md:h-[25rem]   p-[1rem] bg-white ">
-      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
+      <div className="box flex flex-col  lg:gap-[6rem] rounded-2xl justify-center lg:justify-between  lg:flex-row-reverse  md:h-[50rem] lg:h-[25rem]  p-[1rem] bg-white ">
+      <div className="w-full md:mb-7 lg:mb-0  lg:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/hoobank.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
       </div>
@@ -53,8 +53,9 @@ Hoobank: A ReactJS and Tailwind CSS-powered landing page that redefines modern o
         </div>
       </div>
 
-      <div className="box flex flex-col  md:gap-[6rem] rounded-2xl justify-between  md:flex-row  md:h-[25rem]   p-[1rem] bg-white ">
-      <div className="w-full md:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
+
+      <div className="box flex flex-col  lg:gap-[6rem] rounded-2xl justify-center lg:justify-between  lg:flex-row  md:h-[50rem] lg:h-[25rem]  p-[1rem] bg-white ">
+      <div className="w-full md:mb-7 lg:mb-0  lg:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
       <Link href="/" className='  '><Image src="/agency.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
 
       </div>

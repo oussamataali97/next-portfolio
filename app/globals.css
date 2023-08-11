@@ -33,6 +33,10 @@ body{
    box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
 
+.nave{
+  box-shadow: 0 0 10px rgba(0,0,0,.09);
+}
+
 .box{
   box-shadow: 0 0 10px rgba(0,0,0,.1);
 }
