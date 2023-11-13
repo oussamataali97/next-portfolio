@@ -48,7 +48,7 @@ Hoobank: A ReactJS and Tailwind CSS-powered landing page that redefines modern o
           </div>
           <div className="flex gap-4 items-center">
            <Link href="https://github.com/oussamataali97/startup-agency-Nextjs"> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>  Code <AiFillGithub size={27}/></p></Link>
-           <Link href="https://startup-agency-nextjs-five.vercel.app/" target='_blank'> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>Demo <BiLinkExternal size={27}/>  </p></Link>
+           <Link href="https://hoobank-three-olive.vercel.app/" target='_blank'> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>Demo <BiLinkExternal size={27}/>  </p></Link>
           </div>
         </div>
       </div>
