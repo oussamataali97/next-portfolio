@@ -46,8 +46,8 @@ Hoobank: A ReactJS and Tailwind CSS-powered landing page that redefines modern o
             <p className='font-bold p-3 shadow-md flex items-center gap-1' >React          <Image src='/react.svg' width={40} height={40} alt='hand' className='w-7' /></p>
             <p className='font-bold p-3 shadow-md flex items-center gap-1'>Tailwind <Image src='/tail.svg' width={40} height={40} alt='hand' className='w-7' /></p>
           </div>
-          <div className="flex gap-4 items-center">
-           <Link href="https://github.com/oussamataali97/startup-agency-Nextjs"> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>  Code <AiFillGithub size={27}/></p></Link>
+          <div className="flex gap-4 items-center px-0">
+           <Link href="https://github.com/oussamataali97/hoobank"> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>  Code <AiFillGithub size={27}/></p></Link>
            <Link href="https://hoobank-three-olive.vercel.app/" target='_blank'> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>Demo <BiLinkExternal size={27}/>  </p></Link>
           </div>
         </div>
@@ -69,7 +69,7 @@ Hoobank: A ReactJS and Tailwind CSS-powered landing page that redefines modern o
             <p className='font-bold p-3 shadow-md flex items-center gap-1'>Tailwind <Image src='/tail.svg' width={40} height={40} alt='hand' className='w-7' /></p>
           </div>
           <div className="flex gap-4 items-center">
-           <Link href="https://github.com/oussamataali97/hoobank"> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>  Code <AiFillGithub size={27}/></p></Link>
+           <Link href="https://github.com/oussamataali97/startup-agency-Nextjs"> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>  Code <AiFillGithub size={27}/></p></Link>
            <Link href="https://startup-agency-nextjs-five.vercel.app/" target='_blank'> <p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>Demo <BiLinkExternal size={27}/>  </p></Link>
           </div>
         </div>
