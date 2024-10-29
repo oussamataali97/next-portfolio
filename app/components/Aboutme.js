@@ -16,7 +16,7 @@ const Aboutme = () => {
         <div className="mb-10 text-center lg:text-left">
             <p className='font-[900] text-blue-600
             '>ABOUT ME</p>
-            <p className='py-4 font-[900] text-[27px] text-neutral-800 '>A dedicated Front-end Developer based in Errachidia, Morocco 📍</p>
+            <p className='py-4 font-[900] text-[27px] text-neutral-800 '>A dedicated Front-end Developer based in Tanger, Morocco 📍</p>
             <p className='text-gray-500 title text-md title mb-6 md:mb-0'>As a Junior Front-End Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React,Next, Tailwind, and SCSS. I excel in designing and maintaining responsive websites that offer a smooth user experience. My expertise lies in crafting dynamic, engaging interfaces through writing clean and optimized code and utilizing cutting-edge development tools and techniques. I am also a team player who thrives in
                  collaborating with cross-functional teams to produce outstanding web applications.</p>
         </div>
