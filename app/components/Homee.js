@@ -15,7 +15,7 @@ const Home = () => {
         <div className="text">
 
 
-      <p className='my-8 md:my-4 text-gray-500  max-w-[500px] mx-auto lg:mx-0 text-lg title text-center lg:text-left'>Hi, I'm Oussama Taali. A passionate Front-end React Developer based in Tanger, Morocco. 📍</p>
+      <p className='my-8 md:my-4 text-gray-500  max-w-[500px] mx-auto lg:mx-0 text-lg title text-center lg:text-left'>Hi, I'm Oussama Taali. A passionate Front-end React Developer based in Errachidia, Morocco. 📍</p>
       </div>
         <div className="text-4xl flex justify-center lg:justify-start gap-3 py-8 md:py-5">
         <Link href="https://github.com/oussamataali97"> <AiFillGithub/></Link>
