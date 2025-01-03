@@ -14,7 +14,7 @@ const Contact = () => {
              rounded-full flex justify-center items-center w-24 h-24'><FaMapLocationDot size={30} className='text-blue-600'/>     </div>
                 <ul>
                     <li className='text-neutral-600 font-[700] text-xl py-2 md:py-0 '>Location</li>
-                    <li className='title text-lg text-gray-500 font-[500] cursor-pointer hover:text-blue-600'>Tanger , Morocco</li>
+                    <li className='title text-lg text-gray-500 font-[500] cursor-pointer hover:text-blue-600'>Errachidia , Morocco</li>
                 </ul>
             </div>
             <div className="flex  flex-col  md:flex-row text-center md:text-left items-center gap-3 ">
