@@ -13,7 +13,7 @@ const Projects = () => {
   <div className='max-w-5xl mx-auto'>
       <p className='bluetitle'>Portfolio</p>
       <p className='blacktitle'>Each project is a unique piece of development 🧩</p>
-      <p className='text-yellow-500 mb-12 flex items-center gap-2 underline text-center justify-center mt-5'> <MdTipsAndUpdates />put the mouse pointer on the project photo to see the project</p>
+      <p className='text-yellow-500 mb-12 flex items-center gap-2 underline text-center justify-center mt-5'> <MdTipsAndUpdates />Hover the mouse over a project picture to see an overview </p>
 
       <div className="grid grid-cols-1 gap-16  lg:max-w-5xl  max-w-xl mx-auto">
 
