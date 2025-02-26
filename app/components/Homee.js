@@ -27,13 +27,16 @@ const Home = () => {
         <div className="lg:absolute lg:-bottom-9 order-3 flex-col lg:flex-row flex items-center mt-14 ">
         <p className='lg:border-r-2 border-b-2 lg:border-b-0  md:pr-5 font-[600] md:font-[800] text-lg '>Tech Stack</p>
         <ul className='flex md:space-x-3 lg:space-x-6 justify-center items-center md:justify-start flex-wrap gap-5 mt-8 md:mt-6 lg:mt-0 lg:ml-16'>
-          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/js.svg' width={40} height={40} alt='hand' /></li>
-          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/react.svg' width={40} height={40} alt='hand' /></li>
-          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/css.svg' width={40} height={40} alt='hand' /></li>
-          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/next.svg' width={50} height={50} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/js.svg' width={30} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/react.svg' width={30} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/css.svg' width={30} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/next.svg' width={50} height={50} alt='hand' /></li>
 
-          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/html.svg' width={40} height={40} alt='hand' /></li>
-          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-20 h-20'>      <Image src='/saas.svg' width={40} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/html.svg' width={30} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/saas.svg' width={30} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/drupal.png' width={30} height={40} alt='hand' /></li>
+          <li  className='bg-white boxicon rounded-full flex justify-center items-center w-[3rem] h-[3rem]'>      <Image src='/wordpress.png' width={30} height={40} alt='hand' /></li>
+
         </ul>
       </div>
       </div>
