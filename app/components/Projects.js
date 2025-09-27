@@ -17,6 +17,25 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 gap-16  lg:max-w-5xl  max-w-xl mx-auto">
       
+
+            <div className="box flex flex-col  lg:gap-[6rem] rounded-2xl justify-center lg:justify-between  lg:flex-row  md:h-[50rem] lg:h-[25rem]  p-[1rem] bg-white ">
+      <div className="w-full md:mb-7 lg:mb-0  lg:w-[53rem]  shadow-lg overflow-hidden h-[16rem] md:h-auto  rounded-2xl">
+      <Link href="/" className='  '><Image src="/ajitbogass.png"  className='imgpro w-full h-auto object-cover '  height={1366} width={2000} alt='projectbanner' /></Link>
+
+      </div>
+        <div className="w-[44rem] py-10 md:py-0  text-center flex flex-col items-center self-center">
+        <p className='text-xl font-[900] text-neutral-900 mb-2 uppercase'>Aji Tbogass</p>
+        <p className='text-neutral-500 font-[600] max-w-[300px] '>Aji Tbogass Store – A modern website for a local shop in Errachidia selling clothes and perfumes, designed with a clean, responsive layout to showcase products effectively.  </p>
+          <div className=" gap-4 flex items-center my-4">
+            <p className='font-bold p-3 shadow-md flex items-center gap-1' >Wordpress<Image src='/wordpress.png' width={10} height={10} alt='hand' className='w-7' unoptimized /></p>
+          </div>
+          <div className="flex gap-4 items-center">
+            <Link href="https://orangered-cat-556850.hostingersite.com/"><p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>  Code <AiFillGithub size={27}/></p></Link>
+            <Link href="https://orangered-cat-556850.hostingersite.com/" target='_blank'><p className='font-bold p-3 hover:text-blue-600 cursor-pointer flex gap-1 items-center'>Live <BiLinkExternal size={27}/>  </p></Link>
+          </div>
+        </div>
+      </div>
+
       
       
       <div className="box flex flex-col  lg:gap-[6rem] rounded-2xl justify-center lg:justify-between  lg:flex-row-reverse  md:h-[50rem] lg:h-[25rem]  p-[1rem] bg-white ">
